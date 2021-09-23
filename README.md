@@ -1,2 +1,2 @@
-# Site2
-New website for GooseMod.
+# Site
+Small site for Polyglot project.
