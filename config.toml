@@ -5,7 +5,7 @@ theme = "hugo-html5up-alpha"
 paginate = 2
 
 [params]
-  description = "A new cross-site mod for various chat apps."
+  description = "A universal mod to theme and enhance the sites you love"
   images = ["/img/logo.jpg"]
   author = ""
   copyright = "Copyright © GooseNest Team. GooseMod is not affiliated with Discord."

@@ -24,13 +24,13 @@
             {{ end }}
             {{ end }}
 
-            <section id="stats-container">
-                {{ with .Site.Data.homepage.stats }}
-                        {{ range .rows }}
-                            {{ range .items }}
-                                <h3><strong>{{ .stat }}</strong> {{ .text }}</h3>
-                            {{ end }}
-                        {{ end }}
+            <section id="supported">
+                <h2 id="supported-header">Supported Sites</h2>
+
+                {{ with .Site.Data.homepage }}
+                    {{ range .supported }}
+                        <img alt="{{ .name }}" title="{{ .name }}" src="{{ .img }}" class="{{ .class }}">
+                    {{ end }}
                 {{ end }}
             </section>
             </nav>

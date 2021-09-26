@@ -2,8 +2,7 @@
 banner:
   enable: true
   image: #default is 'images/banner.jpg'
-  title: "Polyglot"
-  content: "A new cross-site mod for various chat apps" # Change this if you want something other then the site description
+  title: "Polyglot" # Change this if you want something other then the site description
   buttons:
     - title: "GitHub"
       icon: "fa-code-branch"
@@ -44,19 +43,6 @@ features:
           content: "GooseMod is one of the most secure mods due to it not using Node.js and only using themes and plugins from our Store."
 
 
-stats:
-  rows:
-    - items:
-      #- text: "Total Users"
-      #  stat: ">50000"
-      #- text: "Module Developers"
-      #  stat: "94"
-      #- text: "Themes"
-      #  stat: "115"
-      #- text: "Plugins"
-      #  stat: "77"
-
-
 ### Blog ###
 blog:
   enable: false
@@ -65,27 +51,14 @@ blog:
   buttonText: "Read More"
   postCount: 2
 
-### Call to Action ###
-cta:
-  enable: false
-  header: "Sign up for beta access"
-  content: "Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc."
-
-
-installer:
-  channels:
-    - "Stable"
-    - "PTB"
-    - "Canary"
-    - "Development"
-  
-  mods:
-    major:
-      - "BetterDiscord"
-#      - "SmartCord"
-    
-    minor:
-      - "GooseMod"
-  
-  tools:
-    - "React DevTools"
+supported:
+  - name: "Revolt"
+    img: "https://revolt.chat/logo.svg"
+  - name: "Element"
+    img: "https://workablehr.s3.amazonaws.com/uploads/account/logo/261296/logo"
+  - name: "Guilded"
+    img: "https://theme.zdassets.com/theme_assets/9580103/5d0ae811980786e7385ea26146e5ce75e8aac3a1.png"
+  - name: "Slack"
+    img: "https://logos-world.net/wp-content/uploads/2020/10/Slack-Logo.png"
+  - name: "Teams"
+    img: "https://logos-world.net/wp-content/uploads/2021/04/Microsoft-Teams-Emblem.png"

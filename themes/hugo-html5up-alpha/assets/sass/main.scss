@@ -2426,3 +2426,47 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 	height: 2px;
 	background: rgb(128, 128, 128);
 }
+
+body #banner #supported-header {
+	font-size: 2em;
+	font-weight: 600;
+
+	flex-basis: 100%;
+}
+
+#supported {
+	margin-top: 60px;
+
+	display: flex;
+	flex-flow: wrap;
+
+	align-items: center;
+
+	justify-content: space-evenly;
+
+	background: #000408;
+
+	padding: 20px 5vw;
+
+	box-sizing: content-box;
+
+	gap: 0px 20px;
+}
+
+#supported img {
+	width: 140px;
+
+	filter: contrast(0) brightness(1.8) drop-shadow(0 4px 4px rgba(0,0,0,0.16));
+}
+
+#banner h2 {
+	font-weight: 600;
+}
+
+#banner p {
+	font-weight: 400;
+}
+
+#banner .button {
+	font-weight: 600;
+}
