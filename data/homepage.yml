@@ -21,26 +21,14 @@ highlight:
 
 ### Features ###
 features:
-  enable: false
+  enable: true
   rows:
     - items:
-      - title: "Light"
-        icon: "fa-bolt"
-        accent: "accent2" #accent values are 1-8
-        content: "GooseMod has a small, integrated, and modular codebase allowing it to be light and fast whilst also powerful and easy to use."
-      - title: "Store"
-        icon: "fa-store"
-        accent: "accent3" #accent values are 1-8
-        content: "We have a built-in Store where you can easily install themes and plugins, no opening your file manager or using a terminal."
-    - items:
-        - title: "Beautiful"
-          icon: "fa-eye"
-          accent: "accent4" #accent values are 1-8
-          content: "Our UI heavily matches Discord's own, letting you seamlessly enhance your Discord experience with themes, plugins, and more."
-        - title: "Secure"
-          icon: "fa-lock"
-          accent: "accent6" #accent values are 1-8
-          content: "GooseMod is one of the most secure mods due to it not using Node.js and only using themes and plugins from our Store."
+      - title: "Theming"
+        content: |
+          Polyglot supports some already existing theme formats for a variety of apps via compatibility layers:
+          - Discord Themes (Custom / CSS for mods)
+          - VSCode Themes
 
 
 ### Blog ###
