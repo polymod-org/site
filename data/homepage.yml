@@ -52,3 +52,7 @@ supported:
     img: "https://logos-world.net/wp-content/uploads/2021/04/Microsoft-Teams-Emblem.png"
   - name: "YouTube"
     img: "https://manorandcastle.org.uk/wp-content/uploads/2020/06/YouTube-logo.png"
+  - name: "Google"
+    img: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+  - name: "GitHub"
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Github.com-SunghanKim.png/800px-Github.com-SunghanKim.png"

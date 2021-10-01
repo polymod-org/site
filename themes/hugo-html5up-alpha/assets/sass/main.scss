@@ -2450,19 +2450,19 @@ body #banner #supported-header {
 
 	box-sizing: content-box;
 
-	gap: 0px 10px;
+	gap: 0px 40px;
 }
 
 #supported img {
 	width: 140px;
 
-	filter: contrast(0.5) saturate(0) brightness(1) drop-shadow(0 4px 4px rgba(0,0,0,0.16));
+	filter: contrast(0.3) saturate(0) brightness(1.3) drop-shadow(0 4px 4px rgba(0,0,0,0.16));
 
 	transition: filter 1s;
 }
 
 #supported img:hover {
-	filter: contrast(0.5) saturate(0) brightness(1.5) drop-shadow(0 4px 4px rgba(0,0,0,0.16));
+	filter: contrast(0.8) saturate(0) brightness(1.3) drop-shadow(0 4px 4px rgba(0,0,0,0.16));
 }
 
 #banner h2 {
