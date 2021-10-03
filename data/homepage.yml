@@ -2,7 +2,7 @@
 banner:
   enable: true
   image: #default is 'images/banner.jpg'
-  title: "Polyglot" # Change this if you want something other then the site description
+  title: "Polymod" # Change this if you want something other then the site description
   buttons:
     - title: "GitHub"
       icon: "fa-code-branch"
