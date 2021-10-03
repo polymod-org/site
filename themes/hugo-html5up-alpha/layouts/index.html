@@ -13,7 +13,7 @@
             <nav id="banner">
             {{ if .Site.Data.homepage.banner.enable }}
             {{ with .Site.Data.homepage.banner }}
-                <h2><img src="img/logo.jpg" style="height: 1em; vertical-align: bottom; border-radius: 50%; margin-right: 5px;"> {{ .title }}</h2>
+                <h2><img src="img/logo.jpg" style="height: 1em; vertical-align: bottom; border-radius: 50%; margin-right: 5px;"> {{ .title }} <span class="badge">alpha</span></h2>
                 <p>{{ with .content }}{{ . }}{{else}}{{ $.Site.Params.description }}{{end}}</p>
                 <ul class="actions special">
                     
