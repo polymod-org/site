@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "style.css",
-	"sourceRoot": "/home/runner/work/polyglot-mod.github.io/polyglot-mod.github.io",
+	"sourceRoot": "/home/runner/work/polymod-org.github.io/polymod-org.github.io",
 	"sources": [
 		"themes/hugo-html5up-alpha/assets/sass/main.scss",
 		"themes/hugo-html5up-alpha/assets/sass/libs/_vars.scss",
