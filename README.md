@@ -1,2 +1,2 @@
 # Site
-Small site for Polyglot project.
+Small site for Polymod project.
