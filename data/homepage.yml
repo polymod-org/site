@@ -56,3 +56,5 @@ supported:
     img: "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
   - name: "GitHub"
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Github.com-SunghanKim.png/800px-Github.com-SunghanKim.png"
+  - name: "DuckDuckGo"
+    img: "https://cdn.freebiesupply.com/logos/large/2x/duckduckgo-2-logo-png-transparent.png"
