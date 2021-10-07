@@ -26,18 +26,22 @@ features:
     - items:
       - title: "Theming"
         content: |
-          Polyglot supports some already existing theme formats for a variety of apps via compatibility layers:
+          Polymod supports some already existing theme formats for a variety of apps via compatibility layers:
           - Discord Themes (Custom / CSS for mods)
           - VSCode Themes
+
+      - title: "UI"
+        content: |
+          Polymod has a simple, beautiful but effective UI in the extension popup for you to easily manage plugins and themes for each site.
 
 
 ### Blog ###
 blog:
-  enable: false
+  enable: true
   # Leave header text blank to remove entire <section>
-  header: "News"
-  buttonText: "Read More"
-  postCount: 2
+  header: "Posts"
+  buttonText: "More"
+  postCount: 4
 
 supported:
   - name: "Revolt"
