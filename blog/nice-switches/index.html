@@ -1,0 +1,70 @@
+<!doctype html><html>
+<head>
+<title>Polyglot</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1,user-scalable=no">
+<link rel=stylesheet href=/style.css>
+<meta itemprop=name content="Making Nice Switches for Polymod's UI">
+<meta itemprop=description content="Making good lucking UI elements can be a surprising amount of work, let's see."><meta itemprop=datePublished content="2021-10-07T00:00:00+00:00">
+<meta itemprop=dateModified content="2021-10-07T00:00:00+00:00">
+<meta itemprop=wordCount content="515"><meta itemprop=image content="/img/logo.jpg">
+<meta itemprop=keywords content>
+<meta property="og:title" content="Making Nice Switches for Polymod's UI">
+<meta property="og:description" content="Making good lucking UI elements can be a surprising amount of work, let's see.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="/blog/nice-switches/"><meta property="og:image" content="/img/logo.jpg"><meta property="article:section" content="blog">
+<meta property="article:published_time" content="2021-10-07T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-10-07T00:00:00+00:00">
+<meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="/img/logo.jpg">
+<meta name=twitter:title content="Making Nice Switches for Polymod's UI">
+<meta name=twitter:description content="Making good lucking UI elements can be a surprising amount of work, let's see.">
+</head>
+<body class=is-preload>
+<div id=page-wrapper><section id=main class=container>
+<header>
+<h2>Making Nice Switches for Polymod's UI</h2>
+<p>Oct 7, 2021</p>
+</header>
+<div class=box>
+<h2 id=about>About</h2>
+<p>Making seemingly simple UI elements like switches seems easy but making ones which look good, act functional, are understanding to the user, etc. can be a surprisingly complex task. This short writeup post details some work into the switches made for Polymod&rsquo;s UI.</p>
+<h2 id=switches>Switches</h2>
+<p>Switches are essentially an alternative form of a checkbox, with an on or off state. Instead of being conveyed with being empty or checked, it is either toggled or not. Commonly, toggled (on) switches:</p>
+<ul>
+<li>Handle to the right</li>
+<li>Different, usually highlighted, background color</li>
+</ul>
+<p>With untoggled (off) switches being the opposite:</p>
+<ul>
+<li>Handle to the left</li>
+<li>More neutral, dull, background color</li>
+</ul>
+<h2 id=why-are-switches-like-this>Why are switches like this?</h2>
+<p>Toggled switches are highlighted as we (UI / UX designers, developers, etc.) want the user to easily see what they have on or off. The handle helps with this as positional information can be seen quite easy (not needing to understand colors or see contrast), but having a more highlighted background color can ease with quickly seeing what state a switch is in. This is especially apparant with a large list of switches (closely) together. Having a vibrant background color, commonly the accent color to help fit in with the rest of the app&rsquo;s UI.</p>
+<h2 id=design-revisions>Design Revisions</h2>
+<h3 id=initial-design>Initial Design</h3>
+<p>Originally, I went for a square / boxy design for the first UI. This initially looked good as it was more striking and unique looking, however although it didn&rsquo;t seem obvious at the time, it looked rather amature and generally unpolished. Even when trying to aim for a look / aesthetic, the look can actually be flawed even if you (or people you know) like it initially. What you like does not equal what your users or most people will like, unfortunately.</p>
+<p><img src="https://media.discordapp.net/attachments/617405420071550989/889540992636694568/unknown.png?width=220&height=353" alt=Screenshot></p>
+<h3 id=second-revision-inset>Second Revision (Inset)</h3>
+<p>Whilst the square design remains for the second revision and this is mostly the same, the main difference is an inset for the handle. Whilst this is a small tweak, it makes a surprisingly large difference to the overall quality and polish of the switches. I feel this is because it makes the handle being part of the switch and controlling it more apparant as it looks more as if it is inside of it.</p>
+<p><img src="https://media.discordapp.net/attachments/617405420071550989/889595554378706954/unknown.png?width=218&height=355" alt=Screenshot></p>
+<h3 id=third-revision-rounded>Third Revision (Rounded)</h3>
+<p>In the third revision, the undoing of the original square / box design is swapped with a more modern rounded look. Whilst I initially liked the old design, after switching to this roounded look I immediately liked it more than any past revisions. Specifically the switches even more, as rounded looks are generally more modern and appealing to most end users as it, for the most part, appears simpler and more friendly (in my opinion and testing).</p>
+<p><img src="https://media.discordapp.net/attachments/617405420071550989/889612773011632228/unknown.png?width=218&height=353" alt=Screenshot></p>
+<h2 id=advice>Advice</h2>
+<ul>
+<li>Spacing around switch handle to be inset</li>
+<li>Enabled switches having background as accent color</li>
+<li>Changing state (on or off) at a nice time after interaction, usually just after half way through animation</li>
+<li>Have animations and transitions not too short to feel unneeded or janky but not too long to feel slow, I personally found:
+<ul>
+<li>.3s for handle movement</li>
+<li>.2s for background color transition, after .16s delay</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+</div></body>
+</html>
