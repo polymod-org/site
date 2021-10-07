@@ -40,7 +40,7 @@ blog:
   enable: true
   # Leave header text blank to remove entire <section>
   header: "Posts"
-  buttonText: "More"
+  buttonText: "View"
   postCount: 4
 
 supported:
