@@ -2483,6 +2483,7 @@ body #banner #supported-header {
 
 #main .box {
 	text-align: left;
+	position: relative;
 }
 
 
@@ -2528,4 +2529,15 @@ body #main h2 {
 	font-weight: 600;
 
 	vertical-align: top;
+}
+
+.box > ul.actions.special {
+	top: 50%;
+  right: -90%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+
+.box p:nth-child(3) {
+	margin: 0;
 }
