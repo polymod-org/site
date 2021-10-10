@@ -121,6 +121,7 @@ $bannerURL: "{{ (.Site.Data.homepage.banner.image | default "images/banner.jpg")
 	// Based on css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice
 		html {
 			box-sizing: border-box;
+			overflow-x: hidden;
 		}
 
 		*, *:before, *:after {
