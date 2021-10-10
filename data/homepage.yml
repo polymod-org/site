@@ -62,3 +62,5 @@ supported:
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Github.com-SunghanKim.png/800px-Github.com-SunghanKim.png"
   - name: "DuckDuckGo"
     img: "https://cdn.freebiesupply.com/logos/large/2x/duckduckgo-2-logo-png-transparent.png"
+  - name: "Spotify"
+    img: "https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_White.png"
